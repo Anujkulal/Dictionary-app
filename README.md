@@ -1,12 +1,55 @@
-# React + Vite
+# Dictionary App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+The **Dictionary App** is a web-based application that allows users to search for word definitions, synonyms, antonyms, and pronunciations. The app provides a clean and user-friendly interface for an efficient lookup experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Word Search**: Users can search for any word to get its meaning, pronunciation, synonyms, and antonyms.
+- **Phonetics**: Displays the correct pronunciation of the searched word.
+- **Synonyms & Antonyms**: Provides alternative words and opposites for better vocabulary building.
+- **Responsive UI**: A sleek and modern interface that adapts to different screen sizes.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- **Frontend**: React.js
+- **Backend**: Node.js (if applicable) or directly fetches data from an external dictionary API
+- **API**: Dictionary API for word definitions and related data
+- **Styling**: CSS/Tailwind for a clean and modern look
+
+## Installation
+
+### Steps to Run the Project
+
+1. **Clone the repository**
+
+   ```sh
+   git clone https://github.com/Anujkulal/Dictionary-app.git
+   cd Dictionary-app
+   ```
+
+2. **Install dependencies**
+
+   ```sh
+   npm i
+   ```
+
+3. **Start the application**
+
+   ```sh
+   npm run dev
+   ```
+
+
+
+## Screenshots
+![alt text](./public/screenshot/1.png)
+
+
+## Contact
+
+For any queries, contact: 
+
+[<img src="https://skillicons.dev/icons?i=gmail" alt="Email" width="50" height="50"/>](mailto\:anujkulal333@gmail.com)
+
